@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/IIC3103-Tarea-5/static/css/main.4152bfbb.chunk.css",
+    "main.js": "/IIC3103-Tarea-5/static/js/main.7b828d33.chunk.js",
+    "main.js.map": "/IIC3103-Tarea-5/static/js/main.7b828d33.chunk.js.map",
+    "runtime-main.js": "/IIC3103-Tarea-5/static/js/runtime-main.bf4ba7ae.js",
+    "runtime-main.js.map": "/IIC3103-Tarea-5/static/js/runtime-main.bf4ba7ae.js.map",
+    "static/js/2.500e7c04.chunk.js": "/IIC3103-Tarea-5/static/js/2.500e7c04.chunk.js",
+    "static/js/2.500e7c04.chunk.js.map": "/IIC3103-Tarea-5/static/js/2.500e7c04.chunk.js.map",
+    "index.html": "/IIC3103-Tarea-5/index.html",
+    "precache-manifest.03cd637535d8746f39cb4633d07746bb.js": "/IIC3103-Tarea-5/precache-manifest.03cd637535d8746f39cb4633d07746bb.js",
+    "service-worker.js": "/IIC3103-Tarea-5/service-worker.js",
+    "static/css/main.4152bfbb.chunk.css.map": "/IIC3103-Tarea-5/static/css/main.4152bfbb.chunk.css.map",
+    "static/js/2.500e7c04.chunk.js.LICENSE.txt": "/IIC3103-Tarea-5/static/js/2.500e7c04.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/IIC3103-Tarea-5/static/media/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.b95a0893.woff",
+    "static/media/morty.png": "/IIC3103-Tarea-5/static/media/morty.f5fa4799.png",
+    "static/media/rick.png": "/IIC3103-Tarea-5/static/media/rick.82926b7d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf4ba7ae.js",
+    "static/js/2.500e7c04.chunk.js",
+    "static/css/main.4152bfbb.chunk.css",
+    "static/js/main.7b828d33.chunk.js"
+  ]
+}
