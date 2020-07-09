@@ -34,7 +34,7 @@ export class EpisodeDetail extends Component {
                             onClick={() => {
                               this.props.goPrevious(this.props.currentPages)
                             }}>
-                            <i class="fa fa-arrow-left"></i>
+                            <i className="fa fa-arrow-left"></i>
                     </button>
                   </div>
                   <div className="col-sm-9 col-sm-offset-1"><h3>{this.state.name}</h3></div>
@@ -110,7 +110,7 @@ export class CharacterDetail extends Component {
                             onClick={() => {
                               this.props.goPrevious(this.props.currentPages)
                             }}>
-                            <i class="fa fa-arrow-left"></i>
+                            <i className="fa fa-arrow-left"></i>
                     </button>
                   </div>
                   <div className="col-sm-9 col-sm-offset-1"><h3>{this.state.name}</h3></div>
@@ -134,23 +134,23 @@ export class CharacterDetail extends Component {
               <p className="card-text">
                 <strong>Origin: </strong>
                 {this.state.origin.id ?
-                  <bold className="text-link"
+                  <strong className="text-link"
                      onClick={() => {this.props.addPage("location", this.state.origin, this.props.currentPages)}}>
                      {this.state.origin.name}
-                  </bold>
+                  </strong>
                 :
-                  <bold className="">{this.state.origin.name}</bold>
+                  <strong className="">{this.state.origin.name}</strong>
                 }
               </p>
               <p className="card-text">
                 <strong>Location: </strong>
                 {this.state.location.id ?
-                  <bold className="text-link"
+                  <strong className="text-link"
                      onClick={() => {this.props.addPage("location", this.state.location, this.props.currentPages)}}>
                      {this.state.location.name}
-                  </bold>
+                  </strong>
                 :
-                  <bold className="">{this.state.origin.name}</bold>
+                  <strong className="">{this.state.origin.name}</strong>
                 }
               </p>
             </div>
@@ -215,7 +215,7 @@ export class LocationDetail extends Component {
                             onClick={() => {
                               this.props.goPrevious(this.props.currentPages)
                             }}>
-                            <i class="fa fa-arrow-left"></i>
+                            <i className="fa fa-arrow-left"></i>
                     </button>
                   </div>
                   <div className="col-sm-9 col-sm-offset-1"><h3>{this.state.name}</h3></div>
