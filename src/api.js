@@ -1,4 +1,4 @@
-const API2 = 'https://rickandmortyapi.com/graphql';
+const API2 = 'https://integracion-rick-morty-api.herokuapp.com/graphql';
 
 export const searchEpisode = (filter, page) => {
   let parameters = `page: ${page}`;
